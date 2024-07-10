@@ -1,0 +1,10 @@
+[package]
+name = "rcm"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.5.9", features = ["derive"] }
+directories = "5.0.1"
+gix = { version = "0.63.0", features = ["blocking-network-client"] }
+snafu = "0.8.4"
